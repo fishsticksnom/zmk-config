@@ -38,10 +38,10 @@
        &none        &none     &none   &kp LBKT  &kp RBKT  &none         &none   &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6  &none  &kp STAR
 // |--------------+---------+--------+--------+---------+---------|       |-------+---------+---------+---------+----------+----------|
 // |              |         |        |   {    |   }    |          |       |       |    7&   |    8*   |   9     |   0      |    /     |
-      &kp LSHFT      &none     &none   &kp LBRC  &kp RBRC  &none         &none &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &kp SLASH
+      &trans         &none     &none   &kp LBRC  &kp RBRC  &none         &none &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &kp SLASH
 // '---------------------------------+--------+---------+---------+       |-------+---------+---------+-------------------------------'
 //                                   |        |         |         |       | "`~"  | " \ |"  |         |
-                                       &none    &none     &none           &kp GRAVE &kp BSLH  &none
+                                       &trans    &none     &trans            &kp GRAVE &kp BSLH  &none
 //                                   '--------+---------+---------'       '-------+---------+---------'
 
 
@@ -54,14 +54,14 @@
 // |   F1         |   F2    |   F3   |   F4   |   F5    |   F6    |       |   F7  |    F8   |    F9   |   F10   |   F11    |    F12   |
      &kp F1        &kp F2    &kp F3   &kp F4   &kp F5    &kp F6            &kp F7   &kp F8   &kp F9    &kp F10   &kp F11     &kp F12
 // |--------------+---------+--------+--------+---------+---------|       |-------+---------+---------+---------+----------+----------|
-// |              |  BL0    |  BL1   |  BL2   |         |         |       |  Left |   Down  |   Up    |  Right  |          |          |
-      &none  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &none &none           &kp LEFT &kp DOWN  &kp UP    &kp RIGHT    &none     &none
+// |   Clear      |  BL0    |  BL1   |  BL2   |         |         |       |  Left |   Down  |   Up    |  Right  |          |          |
+      &bt BT_CLR   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &none &none      &kp LEFT &kp DOWN  &kp UP    &kp RIGHT    &none     &none
 // |--------------+---------+--------+--------+---------+---------|       |-------+---------+---------+---------+----------+----------|
 // |              |         |        |        |         |         |       |       |         |         |         |          |          |
         &none        &none     &none    &none   &none     &none             &none    &none    &none      &none     &none    &none
 // '---------------------------------+--------+---------+---------+       |-------+---------+---------+-------------------------------'
 //                                   |        |         |         |       |       |         |         |
-                                        &none    &none    &bt BT_CLR            &none   &none     &none
+                                        &none    &none    &none              &none   &none     &none
 //                                   '--------+---------+---------'       '-------+---------+---------'
 
 
