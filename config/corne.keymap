@@ -124,10 +124,10 @@
 
         layer_2 {
             bindings = <
-&none  &workspace_1          &workspace_2          &workspace_3          &workspace_4          &none    &none  &none     &none     &none         &none      &none
-&none  &move_to_workspace_1  &move_to_workspace_2  &move_to_workspace_3  &move_to_workspace_4  &none    &none  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &none
-&none  &none                 &none                 &none                 &none                 &none    &none  &none     &none     &none         &none      &none
-                                                   &none                 &none                 &none    &none  &none     &none
+&none  &workspace_1          &workspace_2          &workspace_3          &workspace_4          &none    &none     &none     &none         &none      &none  &none
+&none  &move_to_workspace_1  &move_to_workspace_2  &move_to_workspace_3  &move_to_workspace_4  &none    &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &none  &none
+&none  &none                 &none                 &none                 &none                 &none    &none     &none     &none         &none      &none  &none
+                                                   &none                 &none                 &none    &none     &none     &none
             >;
         };
 
@@ -141,4 +141,5 @@
         };
     };
 };
+
 
