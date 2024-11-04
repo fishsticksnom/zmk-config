@@ -47,56 +47,56 @@
         move_to_workspace_1: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(LA(KP_NUMBER_1))>;
+            bindings = <&kp LS(LA(NUMBER_1))>;
             label = "NEW_MACRO";
         };
 
         move_to_workspace_2: move_to_workspace_2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(LA(KP_NUMBER_2))>;
+            bindings = <&kp LS(LA(NUMBER_2))>;
             label = "MOVE_TO_WORKSPACE_2";
         };
 
         move_to_workspace_3: move_to_workspace_3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(LA(KP_NUMBER_3))>;
+            bindings = <&kp LS(LA(NUMBER_3))>;
             label = "MOVE_TO_WORKSPACE_3";
         };
 
         move_to_workspace_4: move_to_workspace_4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(LA(KP_NUMBER_4))>;
+            bindings = <&kp LS(LA(NUMBER_4))>;
             label = "MOVE_TO_WORKSPACE_4";
         };
 
         workspace_1: workspace_1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(KP_NUMBER_1)>;
+            bindings = <&kp LA(NUMBER_1)>;
             label = "WORKSPACE_1";
         };
 
         workspace_2: workspace_2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(KP_NUMBER_2)>;
+            bindings = <&kp LA(NUMBER_2)>;
             label = "WORKSPACE_2";
         };
 
         workspace_3: workspace_3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(KP_NUMBER_3)>;
+            bindings = <&kp LA(NUMBER_3)>;
             label = "WORKSPACE_3";
         };
 
         workspace_4: workspace_4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(KP_NUMBER_4)>;
+            bindings = <&kp LA(NUMBER_4)>;
             label = "WORKSPACE_4";
         };
     };
@@ -115,10 +115,10 @@
 
         lower_layer {
             bindings = <
-&none  &none  &none  &kp LPAR  &kp RPAR  &kp GRAVE               &none      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS     &none
-&none  &none  &none  &kp LBKT  &kp RBKT  &kp NON_US_BACKSLASH    &none      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL     &none
-&none  &none  &none  &kp LBRC  &kp RBRC  &none                   &none      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none
-                     &trans    &none     &trans                  &kp GRAVE  &mo 3         &none
+&none  &none  &none  &kp LPAR  &kp RPAR  &kp GRAVE        &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS     &none
+&none  &none  &none  &kp LBKT  &kp RBKT  &kp BACKSLASH    &none  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL     &none
+&none  &none  &none  &kp LBRC  &kp RBRC  &none            &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none
+                     &trans    &none     &trans           &none  &mo 3         &none
             >;
         };
 
